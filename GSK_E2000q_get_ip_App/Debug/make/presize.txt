@@ -1,0 +1,18 @@
+D:/Intewell_Developer_V2.2.0_GSK_E2000Q_C1_b2/eclipse/workspace/ip/Debug/make/ip.elf  :
+section              size                 addr
+.text            0x214000   0xfffffff400000000
+.data              0x7000   0xfffffff401000000
+.bss             0x5a0000   0xfffffff401007000
+.comment             0x33                  0x0
+.debug_aranges     0xcdb0                  0x0
+.debug_info      0x2018b3                  0x0
+.debug_abbrev     0x20a54                  0x0
+.debug_line       0x5b6a0                  0x0
+.debug_str        0x7b715                  0x0
+.debug_ranges      0xecd0                  0x0
+.debug_frame       0x13c0                  0x0
+.debug_loc         0xaae5                  0x0
+.debug_macro      0x18d4e                  0x0
+Total            0xaf4762
+
+

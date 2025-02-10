@@ -1,0 +1,20 @@
+I:/IntewellDeveloper/Intewell_Developer_V1.9.0_DKS3588_C1_b1/eclipse/workspaceio/vmgpio/Debug/make/vmgpio.elf  :
+section               size       addr
+.text             0x210000   0x100000
+.ARM_exidx          0x27a0   0x310000
+.data               0xd000   0x313000
+.bss              0x558000   0x320000
+.ARM.attributes       0x37        0x0
+.comment              0x33        0x0
+.debug_aranges      0x7ba0        0x0
+.debug_info       0x25617e        0x0
+.debug_abbrev      0x25e46        0x0
+.debug_line        0x733a9        0x0
+.debug_str         0x93740        0x0
+.debug_ranges       0x8198        0x0
+.debug_frame       0x1dcfc        0x0
+.debug_loc          0x4537        0x0
+.debug_macro       0x2663e        0x0
+Total             0xb52860
+
+

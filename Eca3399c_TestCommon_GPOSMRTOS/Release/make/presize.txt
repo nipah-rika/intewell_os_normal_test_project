@@ -1,0 +1,14 @@
+D:/Intewell_V1.8.2_beta/eclipse/workspace/Eca3399c_TestCommon_GPOSMRTOS/Release/make/sskCfg.elf  :
+section             size         addr
+.text             0x1000   0x4f908000
+.data             0x8000   0x4f909000
+.comment            0x33          0x0
+.ARM.attributes     0x37          0x0
+.debug_aranges      0x78          0x0
+.debug_info       0x4579          0x0
+.debug_abbrev      0xa79          0x0
+.debug_line        0x84e          0x0
+.debug_str         0xfc4          0x0
+Total             0xf8e6
+
+

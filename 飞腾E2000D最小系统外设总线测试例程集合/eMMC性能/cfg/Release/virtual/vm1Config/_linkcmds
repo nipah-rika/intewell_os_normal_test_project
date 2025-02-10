@@ -1,0 +1,50 @@
+/* memory-config generate by ccgtools*/
+
+ENTRY(_start)
+
+MEMORY 
+{
+	vmk :  ORIGIN = 0x0000000096008000, LENGTH = 0x0000000000400000
+}
+
+SECTIONS 
+{
+
+.text   ((0x0000000096008000 + 0x0000000000001000 - 1) & ~(0x0000000000001000 - 1))	:
+{
+_text_start = .;
+
+__start_start = .;                *(.vmk_info);                   *(.image_info);               . = ALIGN(16);          CREATE_OBJECT_SYMBOLS;            *( .text ) ;            *( .text.* ) ;            *(.text.lock );            *(.m_hdr) ;            __EH_FRAME_BEGIN__ = .;            *(.eh_frame) ;            *(.gnu.linkonce.t*) ;            . = ALIGN(4);            ___CTOR_LIST__ = .;            __CTOR_LIST__ = .;            LONG (-1);            *(.ctors);            *(.ctor);            LONG (0);            __CTOR_END__ = .;            ___DTOR_LIST__ = .;            __DTOR_LIST__ = .;            LONG (-1);            *(.dtors);            *(.dtor);            LONG (0);            __DTOR_END__ = .;            *(.gnu.linkonce.r*);            *(.rodata*);            *(.jcr);           *(.MIPS*);            *(.init_begin);             *(.init);             *(.init_end);            *(.fini);            __GOT_START__ = .;              *(.got);              __GOT_END__ = .;               __GOT2_START__ = .;              *(.got2);              __GOT2_END__ = .;               *(.gcc_except_table);            . = ALIGN(16);                 *(.fixup);                  *(.interface);                  . = ALIGN(0x1000);                
+_text_end = .;
+}	>vmk
+_text_size = SIZEOF(.text);
+
+
+.data   ((_text_end + 0x0000000000001000 - 1) & ~(0x0000000000001000 - 1))	:
+{
+_data_start = .;
+
+*(.data);  *( .data.* ) ;            *(.gnu.linkonce.d*);            *(.gcc_except_table);      *(.data.rel.local);           __SDATA_START__ = .;         *(.sdata);         *(.DeltaSVMConfig);         __SDATA2_START__ = .;         *(.sdata2);          *(.flash*);         __FIXUP_START__ = .;        __FIXUP_END__ = .;        __EXCEPT_START__ = .;        __EXCEPT_END__ = .;       *(.bss);      *( .bss.* ) ;       *(COMMON);       *(.sbss);      __SBSS_END__ = .;      *(.sbss2);      __SBSS2_END__ = .;         . = ALIGN(0x1000);     
+_data_end = .;
+}	>vmk
+_data_size = SIZEOF(.data);
+
+
+_stack_origin = ((_data_end + 0x0000000000001000 - 1) & ~(0x0000000000001000 - 1));
+_stack_top = (((_data_end + 0x0000000000001000 - 1) & ~(0x0000000000001000 - 1)) + 0x0000000000001000);
+_stack_size = 0x0000000000001000;
+
+
+
+
+}
+
+load__text_start = (0x0000000000600000 + (0x0000000000001000 - 1))& ~(0x0000000000001000 - 1);
+store__text_size = ((_text_size + (0x0000000000001000 - 1)) & ~(0x0000000000001000 - 1));
+
+load__data_start = (0x0000000000600000 + _text_size + (0x0000000000001000 - 1))& ~(0x0000000000001000 - 1);
+store__data_size = ((_data_size + (0x0000000000001000 - 1)) & ~(0x0000000000001000 - 1));
+
+load__stack_origin = (0x0000000000600000 + ((_text_size + (0x0000000000001000 -1))& ~(0x0000000000001000 -1)) + _data_size + (0x0000000000001000 - 1))& ~(0x0000000000001000 - 1);
+store__stack_size = (0x0000000096008000 + (0x0000000000400000 - 1) - _stack_origin + 1);
+

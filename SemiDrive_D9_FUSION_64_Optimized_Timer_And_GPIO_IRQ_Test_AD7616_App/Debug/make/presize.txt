@@ -1,0 +1,18 @@
+E:/git/Fusion/202401015/ide/BIN/Intewell_Developer/eclipse/workspace/timer_ad7616/Debug/make/timer_ad7616.elf  :
+section               size                 addr
+.text             0x296000   0xfffffff400000000
+.data              0x13000   0xfffffff401000000
+.bss              0x59f000   0xfffffff401013000
+.comment              0x33                  0x0
+.debug_aranges     0x1daf0                  0x0
+.debug_info       0x6a4c71                  0x0
+.debug_abbrev      0x59e28                  0x0
+.debug_line       0x16012c                  0x0
+.debug_str         0xee45d                  0x0
+.debug_ranges     0x108f40                  0x0
+.debug_frame        0x8b68                  0x0
+.debug_loc        0x3fbf59                  0x0
+.debug_macro       0x29dd3                  0x0
+Total            0x16ea319
+
+

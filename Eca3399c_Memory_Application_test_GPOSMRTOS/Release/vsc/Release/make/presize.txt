@@ -1,0 +1,17 @@
+D:/InD/eclipse/workspace/Eca3399c_Memory_Application_test_GPOSMRTOS/Release/vsc/Release/make/vsc.elf  :
+section               size         addr
+.text              0x27000   0x402e0000
+.data               0x2000   0x40307000
+.bss               0xf8000   0x40309000
+.comment              0x33          0x0
+.ARM.attributes       0x35          0x0
+.debug_aranges       0x988          0x0
+.debug_info        0x24a57          0x0
+.debug_abbrev       0x4333          0x0
+.debug_line         0x60c4          0x0
+.debug_frame        0x1cf0          0x0
+.debug_str          0x7275          0x0
+.debug_ranges        0x7e0          0x0
+Total             0x159f83
+
+

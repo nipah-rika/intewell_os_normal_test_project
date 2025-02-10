@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project label="[Hypervisor]">
+    <osType>RTCore</osType>
+    <projectType>configuration</projectType>
+    <frame>CfgFramework</frame>
+    <nature>cnature</nature>
+    <configurations>
+        <configuration mtp="msl_debug" name="Release" start="msl_debug" projectType="GPOS_MULTIRTOS" arch="arm" bit="32" targetBoard="iTOP_RK3588" IntewellGCC="GCC 9.3.0"/>
+    </configurations>
+</project>

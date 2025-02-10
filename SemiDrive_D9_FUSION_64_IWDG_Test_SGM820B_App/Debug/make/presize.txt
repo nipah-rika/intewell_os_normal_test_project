@@ -1,0 +1,18 @@
+C:/Intewell_Developer_V2.3.0_FUSION_C1_b2/eclipse/workspace/IWDG/Debug/make/IWDG.elf  :
+section               size                 addr
+.text             0x294000   0xfffffff400000000
+.data              0x12000   0xfffffff401000000
+.bss              0x59f000   0xfffffff401012000
+.comment              0x33                  0x0
+.debug_aranges     0x1d9e0                  0x0
+.debug_info       0x6a3102                  0x0
+.debug_abbrev      0x59d7f                  0x0
+.debug_line       0x16860e                  0x0
+.debug_str         0xedaee                  0x0
+.debug_ranges     0x108e20                  0x0
+.debug_frame        0x8890                  0x0
+.debug_loc        0x3fbf25                  0x0
+.debug_macro       0x279ec                  0x0
+Total            0x16ea951
+
+

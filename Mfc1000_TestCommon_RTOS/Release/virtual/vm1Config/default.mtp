@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure
+   id="clock_1"
+   name="clock_1"
+   version="0.0.0">
+
+   <root
+         id="RTCore/config/public/link/memory.xsd"
+         name="memory">
+      <region            regionName="vmk"      startVar=""      endVar=""      size="100000"      startAddr="ba30000">
+         <section               sectionName=".text"            startVar="_text_start"      endVar="_text_end"      sizeVar="_text_size"      align="00001000"      content="__start_start = .;               *(.vmk_info);                  *(.image_info);              . = ALIGN(16);         CREATE_OBJECT_SYMBOLS;           *( .text ) ;           *( .text.* ) ;           *(.text.lock );           *(.m_hdr) ;           __EH_FRAME_BEGIN__ = .;           *(.eh_frame) ;           *(.gnu.linkonce.t*) ;           . = ALIGN(4);           ___CTOR_LIST__ = .;           __CTOR_LIST__ = .;           LONG (-1);           *(.ctors);           *(.ctor);           LONG (0);           __CTOR_END__ = .;           ___DTOR_LIST__ = .;           __DTOR_LIST__ = .;           LONG (-1);           *(.dtors);           *(.dtor);           LONG (0);           __DTOR_END__ = .;           *(.gnu.linkonce.r*);           *(.rodata*);           *(.jcr);           *(.init_begin);            *(.init);            *(.init_end);           *(.fini);           __GOT_START__ = .;             *(.got);             __GOT_END__ = .;              __GOT2_START__ = .;             *(.got2);             __GOT2_END__ = .;              *(.gcc_except_table);           . = ALIGN(16);                *(.fixup);                 *(.interface);                 . = ALIGN(0x1000);               "      load="TRUE">
+         </section>
+         <section               sectionName=".data"            startVar="_data_start"      endVar="_data_end"      sizeVar="_data_size"      align="00001000"      content="*(.data); *( .data.* ) ;           *(.gnu.linkonce.d*);           *(.gcc_except_table);     *(.data.rel.local);          __SDATA_START__ = .;        *(.sdata);        *(.DeltaSVMConfig);        __SDATA2_START__ = .;        *(.sdata2);         *(.flash*);        __FIXUP_START__ = .;       __FIXUP_END__ = .;       __EXCEPT_START__ = .;       __EXCEPT_END__ = .;        . = ALIGN(0x1000);    "      load="TRUE">
+         </section>
+         <section               sectionName=".bss"            startVar="_bss_start"      endVar="_bss_end"      sizeVar="_bss_size"      align="00001000"      content="*(.bss); *( .bss.* ) ;      *(COMMON);      *(.sbss);     __SBSS_END__ = .;     *(.sbss2);     __SBSS2_END__ = .;     . = ALIGN(0x1000);    "      load="TRUE">
+         </section>
+         <reserve               sectionName="init_stack"      size="00001000"      startVar="_stack_origin"      endVar="_stack_top"      sizeVar="_stack_size"      align="00001000">
+         </reserve>
+      </region>
+      <region            regionName="netBuffer"      startVar="netBufferStart"      endVar="netBufferEnd"      size="20000"      startAddr="300000">
+      </region>
+   </root>
+
+</configure>

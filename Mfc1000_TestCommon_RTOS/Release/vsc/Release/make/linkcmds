@@ -1,0 +1,15 @@
+
+
+/*	begin IDE defined variables	*/
+".text_size" = 0x26000;
+".data_size" = 0x2000;
+".bss_size" = 0x175000;
+".comment_size" = 0x33;
+".debug_aranges_size" = 0xaa8;
+".debug_info_size" = 0x236a1;
+".debug_abbrev_size" = 0x4856;
+".debug_line_size" = 0x823c;
+".debug_str_size" = 0x60cd;
+".debug_ranges_size" = 0x8b8;
+".debug_loc_size" = 0xb19;
+/*	end IDE defined variables	*/

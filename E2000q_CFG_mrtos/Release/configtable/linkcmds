@@ -1,0 +1,7 @@
+
+
+/*	begin IDE defined variables	*/
+".text_size" = 0x1000;
+".data_size" = 0x1000;
+".comment_size" = 0x34;
+/*	end IDE defined variables	*/

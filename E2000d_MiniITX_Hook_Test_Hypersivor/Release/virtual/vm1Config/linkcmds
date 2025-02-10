@@ -1,0 +1,9 @@
+
+
+/*	begin IDE defined variables	*/
+".text_size" = 0x1000;
+".data_size" = 0x0;
+".comment_size" = 0x34;
+".ARM.attributes_size" = 0x37;
+".noinit_size" = 0x0;
+/*	end IDE defined variables	*/

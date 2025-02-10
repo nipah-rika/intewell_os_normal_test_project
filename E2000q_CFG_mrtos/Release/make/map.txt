@@ -1,0 +1,188 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data          0x0000000000000000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .bss           0x0000000000000000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+vmk              0x00000000af908000 0x0000000000400000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000001000                .text_size = 0x1000
+                0x0000000000008000                .data_size = 0x8000
+                0x0000000000000033                .comment_size = 0x33
+                0x00000000000000a0                .debug_aranges_size = 0xa0
+                0x0000000000004b6b                .debug_info_size = 0x4b6b
+                0x0000000000000a47                .debug_abbrev_size = 0xa47
+                0x0000000000000be1                .debug_line_size = 0xbe1
+                0x000000000000114f                .debug_str_size = 0x114f
+
+.text           0x00000000af908000     0x1000
+                0x00000000af908000                _text_start = .
+                0x00000000af908000                __start_start = .
+ *(.vmk_info)
+ .vmk_info      0x00000000af908000       0x60 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af908000                vmkConfigTable
+ *(.image_info)
+                0x00000000af908060                . = ALIGN (0x10)
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ *(.text.*)
+ *(.text.lock)
+ *(.m_hdr)
+                0x00000000af908060                __EH_FRAME_BEGIN__ = .
+ *(.eh_frame)
+ *(.gnu.linkonce.t*)
+                0x00000000af908060                . = ALIGN (0x4)
+                0x00000000af908060                ___CTOR_LIST__ = .
+                0x00000000af908060                __CTOR_LIST__ = .
+                0x00000000af908060        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+                0x00000000af908064        0x4 LONG 0x0
+                0x00000000af908068                __CTOR_END__ = .
+                0x00000000af908068                ___DTOR_LIST__ = .
+                0x00000000af908068                __DTOR_LIST__ = .
+                0x00000000af908068        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+                0x00000000af90806c        0x4 LONG 0x0
+                0x00000000af908070                __DTOR_END__ = .
+ *(.gnu.linkonce.r*)
+ *(.rodata*)
+ *(.jcr)
+ *(.MIPS*)
+ *(.init_begin)
+ *(.init)
+ *(.init_end)
+ *(.fini)
+                0x00000000af908070                __GOT_START__ = .
+ *(.got)
+                0x00000000af908070                __GOT_END__ = .
+                0x00000000af908070                __GOT2_START__ = .
+ *(.got2)
+                0x00000000af908070                __GOT2_END__ = .
+ *(.gcc_except_table)
+                0x00000000af908070                . = ALIGN (0x10)
+ *(.fixup)
+ *(.interface)
+                0x00000000af909000                . = ALIGN (0x1000)
+ *fill*         0x00000000af908070      0xf90 
+                0x00000000af909000                _text_end = .
+                0x0000000000001000                _text_size = SIZEOF (.text)
+
+.iplt           0x00000000af909000        0x0
+ .iplt          0x00000000af909000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.rela.dyn       0x00000000af909000        0x0
+ .rela.iplt     0x00000000af909000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.data           0x00000000af909000     0x8000
+                0x00000000af909000                _data_start = .
+ *(.data)
+ *(.data.*)
+ .data.vmkConfigSpaceBlocks
+                0x00000000af909000      0x410 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.haclExtIntToVintMaprootAgent
+                0x00000000af909410      0x300 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.haclExtIntToVintMapvm1
+                0x00000000af909710      0x300 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.haclVIntToExIntMaprootAgent
+                0x00000000af909a10      0x100 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.haclVIntToExIntMapvm1
+                0x00000000af909b10      0x100 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.exintMapConfigrootAgent
+                0x00000000af909c10       0x10 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.exintMapConfigvm1
+                0x00000000af909c20       0x10 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.vmSpacerootAgent
+                0x00000000af909c30       0xa0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.vmSpacevm1
+                0x00000000af909cd0       0xa0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ .data.vmkConfigUserVMTable
+                0x00000000af909d70      0x110 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af909d70                vmkConfigUserVMTable
+ .data.vmkConfigTTS_tts1
+                0x00000000af909e80       0x18 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af909e80                vmkConfigTTS_tts1
+ .data.vmkConfigTTSTable
+                0x00000000af909e98       0x30 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af909e98                vmkConfigTTSTable
+ .data.vmkConfigIntDispatchTable
+                0x00000000af909ec8     0x1000 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af909ec8                vmkConfigIntDispatchTable
+ .data.configHaclTable
+                0x00000000af90aec8        0x8 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af90aec8                configHaclTable
+ *(.gnu.linkonce.d*)
+ *(.gcc_except_table)
+ *(.data.rel.local)
+                0x00000000af90aed0                __SDATA_START__ = .
+ *(.sdata)
+ *(.DeltaSVMConfig)
+                0x00000000af90aed0                __SDATA2_START__ = .
+ *(.sdata2)
+ *(.flash*)
+                0x00000000af90aed0                __FIXUP_START__ = .
+                0x00000000af90aed0                __FIXUP_END__ = .
+                0x00000000af90aed0                __EXCEPT_START__ = .
+                0x00000000af90aed0                __EXCEPT_END__ = .
+ *(.bss)
+ *(.bss.*)
+ .bss.vmkTTSCB  0x00000000af90aed0       0x50 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+ *fill*         0x00000000af90af20       0xe0 
+ .bss.vmkUserVCB
+                0x00000000af90b000     0x6000 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af90b000                vmkUserVCB
+ .bss.vmkConfigAutoStartedTTS
+                0x00000000af911000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                0x00000000af911000                vmkConfigAutoStartedTTS
+ *(COMMON)
+ *(.sbss)
+                0x00000000af911000                __SBSS_END__ = .
+ *(.sbss2)
+                0x00000000af911000                __SBSS2_END__ = .
+                0x00000000af911000                . = ALIGN (0x1000)
+                0x00000000af911000                _data_end = .
+                0x0000000000008000                _data_size = SIZEOF (.data)
+                0x00000000af911000                _stack_origin = (((_data_end + 0x1000) - 0x1) & 0xfffffffffffff000)
+                0x00000000af912000                _stack_top = ((((_data_end + 0x1000) - 0x1) & 0xfffffffffffff000) + 0x1000)
+                0x0000000000001000                _stack_size = 0x1000
+                0x0000000000600000                load__text_start = 0x600000
+                0x0000000000001000                store__text_size = ((_text_size + 0xfff) & 0xfffffffffffff000)
+                0x0000000000601000                load__data_start = (((0x600000 + _text_size) + 0xfff) & 0xfffffffffffff000)
+                0x0000000000008000                store__data_size = ((_data_size + 0xfff) & 0xfffffffffffff000)
+                0x0000000000609000                load__stack_origin = ((((0x600000 + ((_text_size + 0xfff) & 0xfffffffffffff000)) + _data_size) + 0xfff) & 0xfffffffffffff000)
+                0x00000000003f7000                store__stack_size = ((0xafd07fff - _stack_origin) + 0x1)
+LOAD F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+OUTPUT(F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/make/sskCfg.elf elf64-littleaarch64)
+LOAD linker stubs
+
+.igot.plt       0x00000000af911000        0x0
+ .igot.plt      0x00000000af911000        0x0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                                        0x104 (size before relaxing)
+
+.debug_aranges  0x0000000000000000       0xa0
+ .debug_aranges
+                0x0000000000000000       0xa0 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.debug_info     0x0000000000000000     0x4b6b
+ .debug_info    0x0000000000000000     0x4b6b F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.debug_abbrev   0x0000000000000000      0xa47
+ .debug_abbrev  0x0000000000000000      0xa47 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.debug_line     0x0000000000000000      0xbe1
+ .debug_line    0x0000000000000000      0xbe1 F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+
+.debug_str      0x0000000000000000     0x114f
+ .debug_str     0x0000000000000000     0x114f F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/osdata.o
+                                       0x4999 (size before relaxing)

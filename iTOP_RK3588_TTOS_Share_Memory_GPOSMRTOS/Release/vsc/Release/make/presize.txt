@@ -1,0 +1,17 @@
+D:/Intewell_Developer_V1.9.0_DKS3588_C1_b9/eclipse/workspace/cfg/Release/vsc/Release/make/vsc.elf  :
+section               size         addr
+.text              0x26000   0x402e0000
+.data               0x2000   0x40306000
+.bss               0xf8000   0x40308000
+.comment              0x33          0x0
+.ARM.attributes       0x35          0x0
+.debug_aranges       0x990          0x0
+.debug_info        0x24f0a          0x0
+.debug_abbrev       0x4393          0x0
+.debug_line         0x756f          0x0
+.debug_frame        0x1d14          0x0
+.debug_str          0x734c          0x0
+.debug_ranges        0x7e8          0x0
+Total             0x15aa4c
+
+

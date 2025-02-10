@@ -1,0 +1,3 @@
+./src/InteWellOS_RTOS_CT_FUNC_TTOS_Shm_Allocate.o
+./src/InteWellOS_RTOS_CT_FUNC_TTOS_Shm_Open.o
+./src/userAppInit.o

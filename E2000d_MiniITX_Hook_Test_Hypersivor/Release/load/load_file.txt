@@ -1,0 +1,4 @@
+tftpboot 0x90000000  download/E2000d_MiniITX_Priority_Inversion_APP/Debug/make/APP.bin
+tftpboot 0x8f900000  download/cfghv/Release/merge/config.bin
+tftpboot 0x80000000  download/cfghv/Release/vsc/Release/make/vsc.bin
+bootvx32

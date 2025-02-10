@@ -1,0 +1,6 @@
+# Configurate for target.spec,Auto-Created #
+CONFIG_TA_DISP		=Y
+CONFIG_TA_CHANNEL		=Y
+CONFIG_NET		=Y
+CONFIG_SYNCHRONIZE_GMAC0		=Y
+CONFIG_TA_DISP		=Y

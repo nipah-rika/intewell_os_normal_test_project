@@ -1,0 +1,2 @@
+./src/mmc_read_write_speed_test.o
+./src/userAppInit.o

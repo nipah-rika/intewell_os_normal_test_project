@@ -1,0 +1,5 @@
+1: gpos用于windows端应用，ttos是实时端测试源码
+2: 可以用visual studio直接打开gpos下的Intewell.sln
+3: windows共享内存用的静态库在gpos的lib目录下，x86是32位，x64是64位
+4: visual studio编译测试exe时，需要禁止编译器的优化功能.
+5: 测试共享内存时，先启动实时，再打开windows端的exe

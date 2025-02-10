@@ -1,0 +1,3 @@
+./src/gpio_INT_test.o
+./src/gpio_test.o
+./src/userAppInit.o

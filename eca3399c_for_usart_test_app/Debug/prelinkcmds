@@ -1,0 +1,128 @@
+/* memory-config in eclipse by lwj*/
+/*5 Jul 2022 11:54:41 GMT*/
+
+ENTRY(_start)
+
+SECTIONS	{
+
+.text	BLOCK(0x00001000)	:
+{
+
+        __start_start = .;
+          KEEP (*(.__start));
+          . = . + 0x120 - ( . - "__start_start" );
+          KEEP (*(.image_info));
+          . = ALIGN(16);
+          CREATE_OBJECT_SYMBOLS;
+          *( .text ) ;
+          *( .text.* ) ;
+          *(.text.lock );
+          *(.m_hdr) ;
+          __EH_FRAME_BEGIN__ = .;
+          *(.eh_frame) ;
+         *(.ARM.extab* .gnu.linkonce.armextab.*)        *(.gnu.linkonce.t*) ;
+          . = ALIGN(16);
+          __CTOR_LIST__ = .;
+          LONG (-1);
+          KEEP (*(.ctors .ctor .init_array));
+         LONG (0);
+          __CTOR_END__ = .;
+          __DTOR_LIST__ = .;
+          LONG (-1);
+          *(.dtors);
+          *(.dtor);
+          LONG (0);
+          __DTOR_END__ = .;
+          *(.gnu.linkonce.r*);
+          *(.rodata*);
+          *(.jcr);
+          *(.init_begin);
+          *(.init);
+          *(.init_end);
+          *(.fini);
+          __GOT_START__ = .;
+          *(.got);
+          __GOT_END__ = .;
+          __GOT2_START__ = .;
+          *(.got2);
+          __GOT2_END__ = .;
+          . = ALIGN(16);
+          *(.fixup);
+          *(.text.lock );
+          *(.interface);
+          . = ALIGN(0x1000);
+          ;
+}
+
+_text_start = . ;
+_text_end = . ;
+_text_size = . ;
+
+.ARM_exidx	BLOCK(0x00000004)	:
+{
+
+*(.ARM.exidx* .gnu.linkonce.armexidx.*);
+}
+
+__exidx_start = . ;
+__exidx_end = . ;
+__exidx_size = . ;
+
+.data	BLOCK(0x00001000)	:
+{
+
+     *(.data);
+        *( .data.* ) ;
+       . = ALIGN(0x10);
+        __shell_root_cmds_start = .;
+        KEEP(*(SORT(.shell_root_cmd_*)));
+        __shell_root_cmds_end = .;
+        *(.gnu.linkonce.d*);
+        *(.gcc_except_table.*);
+        *(.data.rel.local);
+        . = ALIGN(0x10);
+        __SDATA_START__ = .;
+        *(.sdata);
+        __SDATA2_START__ = .;
+        *(.sdata2);
+        *(.flash*);
+        __FIXUP_START__ = .;
+        __FIXUP_END__ = .;
+        __EXCEPT_START__ = .;
+        __EXCEPT_END__ = .;
+        . = ALIGN(0x1000);
+        ;
+}
+
+_data_start = . ;
+_data_end = . ;
+_data_size = . ;
+
+.bss	BLOCK(0x00001000)	:
+{
+
+ *(.bss);
+    *( .bss.* ) ;
+      *(COMMON);
+      *(.gnu.linkonce.b*);
+      *(.sbss);
+      __SBSS_END__ = .;
+      *(.sbss2);
+      __SBSS2_END__ = .;
+       . = ALIGN(0x1000);
+      ;
+}
+
+_bss_start = . ;
+_bss_end = . ;
+_bss_size = . ;
+
+
+init_stack_start = . ;
+init_stack_end = . ;
+init_stack_size = . ;
+
+}
+load__text_start =( 0x00001000-1 )&~(0x00001000 -1 );
+load__data_start =( load__text_start + _text_size + ( 0x00001000 -1 ))&~(0x00001000 -1 );
+load__bss_start =( load__data_start + _data_size + ( 0x00001000 -1 ))&~(0x00001000 -1 );

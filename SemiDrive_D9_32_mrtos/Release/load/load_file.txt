@@ -1,0 +1,6 @@
+tftpboot 0x80000000  download/d9_32_mrtos/Release/rootAgent/Release/make/rootAgent.bin
+tftpboot 0x98000000  download/app_semidrive_multicast_test/Debug/make/app_semidrive_multicast_test.bin
+tftpboot 0x9e400000  download/app_semidrive_multicast_test_vm2/Debug/make/app_semidrive_multicast_test_vm2.bin
+tftpboot 0x7f900000  download/d9_32_mrtos/Release/merge/config.bin
+tftpboot 0x70000000  download/d9_32_mrtos/Release/vsc/Release/make/vsc.bin
+bootvx32

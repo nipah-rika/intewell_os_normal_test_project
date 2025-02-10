@@ -1,0 +1,17 @@
+D:/Intewell_V1.8.2_beta/eclipse/workspace/Eca3399c_GPIO_InOut_HighLow_test_RTOS/Release/vsc/Release/make/vsc.elf  :
+section               size         addr
+.text              0x27000   0x402e0000
+.data               0x2000   0x40307000
+.bss               0xf8000   0x40309000
+.comment              0x33          0x0
+.ARM.attributes       0x35          0x0
+.debug_aranges       0x978          0x0
+.debug_info        0x2488c          0x0
+.debug_abbrev       0x4333          0x0
+.debug_line         0x69d8          0x0
+.debug_frame        0x1cb0          0x0
+.debug_str          0x727c          0x0
+.debug_ranges        0x7d0          0x0
+Total             0x15a673
+
+

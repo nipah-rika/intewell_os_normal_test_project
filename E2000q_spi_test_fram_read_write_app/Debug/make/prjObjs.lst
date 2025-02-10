@@ -1,0 +1,2 @@
+./src/spi_fram_test.o
+./src/userAppInit.o

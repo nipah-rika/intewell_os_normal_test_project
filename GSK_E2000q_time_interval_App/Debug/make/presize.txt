@@ -1,0 +1,18 @@
+D:/Intewell_Developer_V2.2.0_GSK_E2000Q_C1_b2/eclipse/workspace/time/Debug/make/time.elf  :
+section              size                 addr
+.text            0x214000   0xfffffff400000000
+.data              0x7000   0xfffffff401000000
+.bss             0x5a0000   0xfffffff401007000
+.comment             0x33                  0x0
+.debug_aranges     0xcdd0                  0x0
+.debug_info      0x2012c1                  0x0
+.debug_abbrev     0x20ac8                  0x0
+.debug_line       0x5b427                  0x0
+.debug_str        0x7b779                  0x0
+.debug_ranges      0xecf0                  0x0
+.debug_frame       0x1410                  0x0
+.debug_loc         0xaae5                  0x0
+.debug_macro      0x18d4e                  0x0
+Total            0xaf405f
+
+

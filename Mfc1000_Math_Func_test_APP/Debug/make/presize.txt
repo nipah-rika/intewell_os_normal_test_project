@@ -1,0 +1,18 @@
+D:/Intewell_Developer_V2.1.4_release/eclipse/workspace/Mfc1000_Math_Func_test_APP/Debug/make/Mfc1000_Math_Func_test_APP.elf  :
+section              size         addr
+.text            0x1f8000   0x40000000
+.data              0x5000   0x41000000
+.got.plt              0xc   0x41005000
+.bss             0x6ee000   0x41005000
+.comment             0x33          0x0
+.debug_aranges     0x68f8          0x0
+.debug_info      0x1f7e11          0x0
+.debug_abbrev     0x205a2          0x0
+.debug_line       0x5a930          0x0
+.debug_str        0x7f092          0x0
+.debug_ranges      0x70d0          0x0
+.debug_loc         0x613a          0x0
+.debug_macro      0x1b932          0x0
+Total            0xc0c1e8
+
+

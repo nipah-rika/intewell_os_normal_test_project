@@ -1,0 +1,2 @@
+./src/i2c_test.o
+./src/userAppInit.o

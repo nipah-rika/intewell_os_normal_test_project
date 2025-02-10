@@ -1,0 +1,47 @@
+*.d
+*.obj
+*.o
+*.tlog
+*~
+
+
+## .gitignore for linux
+!.editorconfig
+!.eslintrc
+!.travis.yml
+*~
+
+## .gitignore for windows
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+## .gitignore for mac os x
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+## .gitignore for mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes

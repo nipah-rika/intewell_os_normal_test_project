@@ -1,0 +1,13 @@
+D:/IntewellDeveloper_V1.2.0_beta/eclipse/workspace/Mfc1000_TestCommon_RTOS/Release/make/sskCfg.elf  :
+section            size        addr
+.text            0x1000   0xba28000
+.data            0x4000   0xba29000
+.comment           0x33         0x0
+.debug_aranges     0x78         0x0
+.debug_info      0x4090         0x0
+.debug_abbrev     0x9d4         0x0
+.debug_line       0x75e         0x0
+.debug_str        0xecb         0x0
+Total            0xb138
+
+

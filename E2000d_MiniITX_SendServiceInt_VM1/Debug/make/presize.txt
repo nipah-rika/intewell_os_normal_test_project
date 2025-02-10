@@ -1,0 +1,18 @@
+D:/Intewell_Developer_Intewell_Hyper_I-V2.0.0_UVC_II_C1_Demo/eclipse/workspace/APP/Debug/make/APP.elf  :
+section              size                 addr
+.text            0x210000   0xfffffff400000000
+.data              0x8000   0xfffffff401000000
+.bss             0x5a2000   0xfffffff401008000
+.comment             0x33                  0x0
+.debug_aranges     0xcdf0                  0x0
+.debug_info      0x2003c4                  0x0
+.debug_abbrev     0x20a13                  0x0
+.debug_line       0x59d79                  0x0
+.debug_str        0x7b76a                  0x0
+.debug_ranges      0xed10                  0x0
+.debug_frame       0x1458                  0x0
+.debug_loc         0xaae5                  0x0
+.debug_macro      0x18d54                  0x0
+Total            0xaf0a7e
+
+

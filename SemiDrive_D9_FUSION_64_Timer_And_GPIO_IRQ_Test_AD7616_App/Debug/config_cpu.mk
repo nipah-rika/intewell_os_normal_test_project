@@ -1,0 +1,8 @@
+#Configuratefortarget.spec,Auto-Created#
+CONFIG_ARCH		=arm64
+CONFIG_SUB_ARCH		=CortexA55
+CONFIG_CPU_ENDIAN		=little
+CONFIG_CPU_FLOAT		=hard
+CONFIG_CPU_CORE_NUMBER		=1
+CONFIG_CPU_BIT		=64
+CONFIG_CPU_SMP		=true

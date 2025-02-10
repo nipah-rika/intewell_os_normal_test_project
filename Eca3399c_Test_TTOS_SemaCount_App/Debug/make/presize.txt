@@ -1,0 +1,20 @@
+D:/Intewell_V1.8.2_beta/eclipse/workspace/Eca3399c_Test_TTOS_SemaCount_App/Debug/make/Eca3399c_Test_TTOS_SemaCount_App.elf  :
+section                size       addr
+.text              0x206000   0x100000
+.ARM_exidx           0x27c0   0x306000
+.data                0x2000   0x309000
+.bss               0x556000   0x30b000
+.ARM.attributes        0x35        0x0
+.comment               0x33        0x0
+.debug_aranges       0xf1a8        0x0
+.debug_info        0x62c1d5        0x0
+.debug_abbrev       0x56e2d        0x0
+.debug_line        0x154ad8        0x0
+.debug_str          0xee052        0x0
+.debug_ranges       0x856e0        0x0
+.debug_frame        0x37158        0x0
+.debug_macro        0x27ae0        0x0
+.debug_loc         0x214d3c        0x0
+Total             0x132e550
+
+

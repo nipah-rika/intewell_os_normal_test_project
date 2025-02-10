@@ -1,0 +1,5 @@
+﻿  Building 'testshmm' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+  shm_read.c
+  testshmm.c
+  正在生成代码...
+  testshmm.vcxproj -> D:\tzp\sharemem\intewellrtre_windows-testshmm\gpos\output\testshmm\x64\Debug\testshmm.exe

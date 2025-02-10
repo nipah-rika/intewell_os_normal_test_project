@@ -1,0 +1,6 @@
+setenv bootaddr 0xa0000000
+tftpboot 0xb0000000  download/cfg_e2000q_mrtos/Release/rootAgent/Release/make/rootAgent.bin
+tftpboot 0xb8000000  download/test_e2000q_spi_app/Debug/make/test_e2000q_spi_app.bin
+tftpboot 0xaf900000  download/cfg_e2000q_mrtos/Release/merge/config.bin
+tftpboot 0xa0287c28  download/cfg_e2000q_mrtos/Release/vsc/Release/make/vsc.elf
+bootvx

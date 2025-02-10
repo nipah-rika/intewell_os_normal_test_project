@@ -1,0 +1,13 @@
+D:/Intewell_Developer_Intewell_Hyper_I-V2.0.0_UVC_II_C1_Demo/eclipse/workspace/cfg/Release/make/sskCfg.elf  :
+section             size         addr
+.text             0x1000   0xaf908000
+.data             0x8000   0xaf909000
+.comment            0x33          0x0
+.debug_aranges      0xa0          0x0
+.debug_info       0x4b6b          0x0
+.debug_abbrev      0xa47          0x0
+.debug_line        0xba5          0x0
+.debug_str        0x1135          0x0
+Total            0x1035f
+
+

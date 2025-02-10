@@ -1,0 +1,16 @@
+F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/vsc/Release/make/vsc.elf  :
+section              size         addr
+.text             0x2c000   0xa02e0000
+.data              0x3000   0xa030c000
+.bss             0x104000   0xa030f000
+.comment             0x33          0x0
+.debug_aranges     0x1130          0x0
+.debug_info       0x22fc6          0x0
+.debug_abbrev      0x4139          0x0
+.debug_line        0x81e2          0x0
+.debug_frame       0x2158          0x0
+.debug_str         0x5406          0x0
+.debug_ranges       0xf80          0x0
+Total            0x16b922
+
+

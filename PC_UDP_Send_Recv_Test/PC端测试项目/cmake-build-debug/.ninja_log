@@ -1,0 +1,5 @@
+# ninja log v5
+11	2105	7331496141704054	CMakeFiles/untitled.dir/main.cpp.obj	5d0d662afb55b6b2
+8	1386	7332093053500830	build.ninja	db1f05f39023b850
+2107	2350	7331496144108606	untitled.exe	128d9915cd7b4d71
+19	2518	7331484364280110	CMakeFiles/untitled.dir/udp.cpp.obj	cb1aa67ca1b67f10

@@ -1,0 +1,4 @@
+﻿  Building 'testshmm' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+  shm_read.c
+  testshmm.c
+  testshmm.vcxproj -> D:\tzp\rtre_windows\intewellrtre_windows-testshmm\output\testshmm\x86\Release\testshmm.exe

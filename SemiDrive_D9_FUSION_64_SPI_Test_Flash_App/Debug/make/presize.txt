@@ -1,0 +1,18 @@
+C:/Intewell_Developer_V2.3.0_FUSION_C1_b2/eclipse/workspace/SFUD/Debug/make/SFUD.elf  :
+section               size                 addr
+.text             0x299000   0xfffffff400000000
+.data              0x12000   0xfffffff401000000
+.bss              0x5a0000   0xfffffff401012000
+.comment              0x33                  0x0
+.debug_aranges     0x1dca0                  0x0
+.debug_info       0x6a546e                  0x0
+.debug_abbrev      0x5a15b                  0x0
+.debug_line       0x169d68                  0x0
+.debug_str         0xee00a                  0x0
+.debug_ranges     0x109140                  0x0
+.debug_frame        0x8f20                  0x0
+.debug_loc        0x3fbf25                  0x0
+.debug_macro       0x279ec                  0x0
+Total            0x16f597f
+
+

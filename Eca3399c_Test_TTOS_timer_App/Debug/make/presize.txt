@@ -1,0 +1,20 @@
+D:/Intewell_V1.8.2_beta/eclipse/workspace/Eca3399c_Test_TTOS_timer_App/Debug/make/Eca3399c_Test_TTOS_timer_App.elf  :
+section                size       addr
+.text              0x205000   0x100000
+.ARM_exidx           0x27c0   0x305000
+.data                0x2000   0x308000
+.bss               0x556000   0x30a000
+.ARM.attributes        0x35        0x0
+.comment               0x33        0x0
+.debug_aranges       0xf188        0x0
+.debug_info        0x62c12c        0x0
+.debug_abbrev       0x56df3        0x0
+.debug_line        0x154927        0x0
+.debug_str          0xee011        0x0
+.debug_ranges       0x856c0        0x0
+.debug_frame        0x370cc        0x0
+.debug_macro        0x27ae0        0x0
+.debug_loc         0x214d3c        0x0
+Total             0x132d1af
+
+

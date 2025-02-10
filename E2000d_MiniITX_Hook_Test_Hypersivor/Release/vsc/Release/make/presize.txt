@@ -1,0 +1,17 @@
+D:/Intewell_Developer_Intewell_Hyper_I-V2.0.0_UVC_II_C1_Demo/eclipse/workspace/cfghv/Release/vsc/Release/make/vsc.elf  :
+section               size         addr
+.text              0x28000   0x802e0000
+.data               0x2000   0x80308000
+.bss               0xf9000   0x8030a000
+.comment              0x33          0x0
+.ARM.attributes       0x35          0x0
+.debug_aranges       0x938          0x0
+.debug_info        0x22c76          0x0
+.debug_abbrev       0x41c4          0x0
+.debug_line         0x7a58          0x0
+.debug_frame        0x1b48          0x0
+.debug_str          0x53b8          0x0
+.debug_ranges        0x780          0x0
+Total             0x1598b2
+
+

@@ -1,0 +1,21 @@
+﻿  Building 'testshmm' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: 已启用 Spectre 缓解，但找不到 Spectre 缓解库。验证 Visual Studio 工作负荷包括 Spectre 缓解库。有关详细信息，请参阅 https://aka.ms/Ofhn4c。
+  shm_read.c
+  testshmm.c
+shm_read.obj : error LNK2019: 无法解析的外部符号 memcpy，该符号在函数 shm_write 中被引用
+shm_read.obj : error LNK2019: 无法解析的外部符号 __acrt_iob_func，该符号在函数 printf 中被引用
+testshmm.obj : error LNK2001: 无法解析的外部符号 __acrt_iob_func
+shmm.lib(shm_api.obj) : error LNK2001: 无法解析的外部符号 __acrt_iob_func
+shmm.lib(shm_init.obj) : error LNK2001: 无法解析的外部符号 __acrt_iob_func
+shm_read.obj : error LNK2019: 无法解析的外部符号 __stdio_common_vfprintf，该符号在函数 _vfprintf_l 中被引用
+testshmm.obj : error LNK2001: 无法解析的外部符号 __stdio_common_vfprintf
+shmm.lib(shm_api.obj) : error LNK2001: 无法解析的外部符号 __stdio_common_vfprintf
+shmm.lib(shm_init.obj) : error LNK2001: 无法解析的外部符号 __stdio_common_vfprintf
+testshmm.obj : error LNK2019: 无法解析的外部符号 memset，该符号在函数 main1 中被引用
+testshmm.obj : error LNK2019: 无法解析的外部符号 __stdio_common_vfscanf，该符号在函数 _vfscanf_l 中被引用
+testshmm.obj : error LNK2019: 无法解析的外部符号 exit，该符号在函数 main1 中被引用
+LINK : error LNK2001: 无法解析的外部符号 mainCRTStartup
+shmm.lib(shm_api.obj) : error LNK2019: 无法解析的外部符号 _errno，该符号在函数 allocate_shared_memory 中被引用
+shmm.lib(shm_api.obj) : error LNK2019: 无法解析的外部符号 strncpy，该符号在函数 allocate_shared_memory 中被引用
+shmm.lib(shm_object_pool.obj) : error LNK2019: 无法解析的外部符号 strncmp，该符号在函数 shm_object_find 中被引用
+C:\hnc-test\gpos\output\testshmm\x64\Release\testshmm.exe : fatal error LNK1120: 10 个无法解析的外部命令

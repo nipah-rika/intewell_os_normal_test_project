@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: 已启用 Spectre 缓解，但找不到 Spectre 缓解库。验证 Visual Studio 工作负荷包括 Spectre 缓解库。有关详细信息，请参阅 https://aka.ms/Ofhn4c。
+  ConsoleApplicationShmm.cpp
+LINK : fatal error LNK1104: 无法打开文件“msvcprtd.lib”

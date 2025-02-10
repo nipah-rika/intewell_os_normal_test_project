@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configure id="clock_1" name="clock_1" version="0.0.0">
+
+   <root id="RTCore/config/public/link/memory.xsd" name="memory">
+      <region endVar="" regionName="vmk" size="1400000" startAddr="402e0000" startVar="">
+         <section align="00001000" content="__start_start = .;            *(.__start);                . = . + 0x120 - ( . - &quot;__start_start&quot; );               *(.image_info);           . = ALIGN(16);      CREATE_OBJECT_SYMBOLS;        *( .vectors );        *( .text ) ;         *( .text.* ) ;        *(.text.lock );        *(.m_hdr) ;        __EH_FRAME_BEGIN__ = .;        *(.eh_frame) ;        *(.gnu.linkonce.t*) ;        . = ALIGN(4);        ___CTOR_LIST__ = .;        __CTOR_LIST__ = .;        LONG (-1);        *(.ctors);        *(.ctor);        LONG (0);        __CTOR_END__ = .;        ___DTOR_LIST__ = .;        __DTOR_LIST__ = .;        LONG (-1);        *(.dtors);        *(.dtor);        LONG (0);        __DTOR_END__ = .;        *(.gnu.linkonce.r*);        *(.rodata*);        *(.jcr);        *(.init_begin);         *(.init);         *(.init_end);        *(.fini);        __GOT_START__ = .;          *(.got);          __GOT_END__ = .;           __GOT2_START__ = .;          *(.got2);          __GOT2_END__ = .;           *(.gcc_except_table);        . = ALIGN(16);             *(.fixup);              *(.interface);              . = ALIGN(0x1000);            " endVar="_text_end" load="TRUE" sectionName=".text" sizeVar="_text_size" startVar="_text_start">
+         </section>
+         <section align="00001000" content="*(.data);       *( .data.* ) ;       *( .configtable*) ;       *(.vmk_info);       *(.vm*);                *(.gnu.linkonce.d*);                *(.gcc_except_table);          *(.data.rel.local);               __SDATA_START__ = .;             *(.sdata);             *(.DeltaSVMConfig);             __SDATA2_START__ = .;             *(.sdata2);              *(.flash*);             __FIXUP_START__ = .;            __FIXUP_END__ = .;            __EXCEPT_START__ = .;            __EXCEPT_END__ = .;             . = ALIGN(0x1000);         " endVar="_data_end" load="TRUE" sectionName=".data" sizeVar="_data_size" startVar="_data_start">
+         </section>
+         <section align="00001000" content="*(.bss);   *( .bss.* ) ;        *(COMMON);        *(.sbss);       __SBSS_END__ = .;       *(.sbss2);       __SBSS2_END__ = .;       . = ALIGN(0x1000);      " endVar="_bss_end" load="TRUE" sectionName=".bss" sizeVar="_bss_size" startVar="_bss_start">
+         </section>
+         <reserve align="00001000" endVar="_stack_top" sectionName="init_stack" size="00001000" sizeVar="_stack_size" startVar="_stack_origin">
+         </reserve>
+      </region>
+   </root>
+
+</configure>

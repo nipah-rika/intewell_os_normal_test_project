@@ -1,0 +1,5 @@
+tftpboot 0x50000000  download/os/Debug/make/os.bin
+tftpboot 0x5c800000  download/os/Debug/make/os.bin
+tftpboot 0x4f900000  download/cfg/Release/merge/config.bin
+tftpboot 0x40000000  download/cfg/Release/vsc/Release/make/vsc.bin
+bootvx32

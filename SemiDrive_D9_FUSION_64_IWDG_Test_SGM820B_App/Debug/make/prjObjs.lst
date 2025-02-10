@@ -1,0 +1,11 @@
+./src/test/RTOS_WD_002.o
+./src/test/RTOS_WD_003.o
+./src/test/RTOS_WD_004-1.o
+./src/test/RTOS_WD_009-1.o
+./src/test/RTOS_WD_009-2.o
+./src/test/RTOS_WD_009.o
+./src/test/RTOS_WD_014.o
+./src/test/RTOS_WD_14-1.o
+./src/test/RTOS_WD_14-2.o
+./src/userAppInit.o
+./src/watchdog.o

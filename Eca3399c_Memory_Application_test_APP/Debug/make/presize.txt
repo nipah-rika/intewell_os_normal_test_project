@@ -1,0 +1,20 @@
+D:/InD/eclipse/workspace/Eca3399c_Memory_Application_test_APP/Debug/make/Eca3399c_Memory_Application_test_APP.elf  :
+section                size       addr
+.text              0x212000   0x100000
+.ARM_exidx           0x27c0   0x312000
+.data                0x2000   0x315000
+.bss               0x55a000   0x317000
+.ARM.attributes        0x35        0x0
+.comment               0x33        0x0
+.debug_aranges       0xf2f8        0x0
+.debug_info        0x6351f8        0x0
+.debug_abbrev       0x57ba6        0x0
+.debug_line        0x157665        0x0
+.debug_str          0xf1ebc        0x0
+.debug_ranges       0x857f0        0x0
+.debug_frame        0x37568        0x0
+.debug_macro        0x293ef        0x0
+.debug_loc         0x214d3c        0x0
+Total             0x1350c62
+
+

@@ -1,0 +1,5 @@
+tftpboot 0x50000000  download/test/Release/rootAgent/Release/make/rootAgent.bin
+tftpboot 0x5c800000  download/vm1/Debug/make/vm1.bin
+tftpboot 0x4f900000  download/test/Release/merge/config.bin
+tftpboot 0x40000000  download/test/Release/vsc/Release/make/vsc.bin
+bootvx32

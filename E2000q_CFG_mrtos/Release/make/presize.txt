@@ -1,0 +1,13 @@
+F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/make/sskCfg.elf  :
+section             size         addr
+.text             0x1000   0xaf908000
+.data             0x8000   0xaf909000
+.comment            0x33          0x0
+.debug_aranges      0xa0          0x0
+.debug_info       0x4b6b          0x0
+.debug_abbrev      0xa47          0x0
+.debug_line        0xbe1          0x0
+.debug_str        0x114f          0x0
+Total            0x103b5
+
+

@@ -1,0 +1,18 @@
+F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/test_e2000q_spi_app/Debug/make/test_e2000q_spi_app.elf  :
+section               size                 addr
+.text             0x213000   0xfffffff400000000
+.data               0x7000   0xfffffff401000000
+.bss              0xac9000   0xfffffff401007000
+.debug_aranges      0xcdd0                  0x0
+.debug_info       0x201285                  0x0
+.debug_abbrev      0x20c14                  0x0
+.debug_line        0x56e96                  0x0
+.debug_str         0x7b2ab                  0x0
+.debug_ranges       0xece0                  0x0
+.comment              0x33                  0x0
+.debug_frame        0x13f0                  0x0
+.debug_macro       0x18d11                  0x0
+.debug_loc          0xaae5                  0x0
+Total            0x10176a3
+
+

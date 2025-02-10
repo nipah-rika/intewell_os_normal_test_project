@@ -1,0 +1,82 @@
+/* memory-config generate by ccgtools*/
+
+ENTRY(_start)
+
+MEMORY 
+{
+	partition :  ORIGIN = 0xc0000000, LENGTH = 0x02000000
+	shm :  ORIGIN = 0xf9b00000, LENGTH = 0x06400000
+}
+
+SECTIONS 
+{
+
+.text   ((0xc0000000 + 0x00001000 - 1) & ~(0x00001000 - 1))	:
+{
+_text_start = .;
+
+__start_start = .;                      *(.__start);                                                       . = . + 0x120 - ( . - "__start_start" );                                       *(.image_info);                             . = ALIGN(16);                     CREATE_OBJECT_SYMBOLS;                       *( .text ) ;                       *( .text.* ) ;                      *(.text.lock );                       *(.m_hdr) ;                       __EH_FRAME_BEGIN__ = .;                       *(.eh_frame) ;                       *(.gnu.linkonce.t*) ;                      . = ALIGN(4);                       ___CTOR_LIST__ = .;                       __CTOR_LIST__ = .;                       LONG (-1);                       *(.ctors);                       *(.ctor);                       LONG (0);                       __CTOR_END__ = .;                       ___DTOR_LIST__ = .;                       __DTOR_LIST__ = .;                       LONG (-1);                       *(.dtors);                       *(.dtor);                       LONG (0);                       __DTOR_END__ = .;                       *(.gnu.linkonce.r*);                       *(.rodata*);                       *(.jcr);                       *(.init_begin);                       *(.init);                       *(.init_end);                       *(.fini);                       __GOT_START__ = .;                       *(.got);                       __GOT_END__ = .;                       __GOT2_START__ = .;                       *(.got2);                       __GOT2_END__ = .;                       . = ALIGN(16);                       *(.fixup);                     *(.text.lock );                       *(.interface);                                               . = ALIGN(0x1000);                       
+_text_end = .;
+}	>partition
+_text_size = SIZEOF(.text);
+
+
+.data   ((_text_end + 0x00001000 - 1) & ~(0x00001000 - 1))	:
+{
+_data_start = .;
+
+ *(.data);         *( .data.* ) ;          __shell_root_cmds_start = .;          KEEP(*(SORT(.shell_root_cmd_*)));          __shell_root_cmds_end = .;            *(.gnu.linkonce.d*);            *(.gcc_except_table);            *(.gcc_except_table.*);            *(.data.rel.local);            __SDATA_START__ = .;            *(.sdata);            __SDATA2_START__ = .;            *(.sdata2);            *(.flash*);            __FIXUP_START__ = .;            __FIXUP_END__ = .;            __EXCEPT_START__ = .;            __EXCEPT_END__ = .;            . = ALIGN(0x1000);          
+_data_end = .;
+}	>partition
+_data_size = SIZEOF(.data);
+
+
+.bss   ((_data_end + 0x00001000 - 1) & ~(0x00001000 - 1))	:
+{
+_bss_start = .;
+
+ *(.bss);    *( .bss.* ) ;      *(COMMON);      *(.gnu.linkonce.b*);      *(.sbss);      __SBSS_END__ = .;      *(.sbss2);      __SBSS2_END__ = .;       . = ALIGN(0x1000);      
+_bss_end = .;
+}	>partition
+_bss_size = SIZEOF(.bss);
+
+
+init_stack_start = ((_bss_end + 0x00001000 - 1) & ~(0x00001000 - 1));
+init_stack_end = (((_bss_end + 0x00001000 - 1) & ~(0x00001000 - 1)) + 0x00002000);
+init_stack_size = 0x00002000;
+
+
+.ARM   ((init_stack_start + 0x00002000 + 0x00000004 - 1) & ~(0x00000004 - 1))	(NOLOAD)	:
+{
+__exidx_start = .;
+
+*(.ARM.exidx);
+__exidx_end = .;
+}	>partition
+__exidx_size = SIZEOF(.ARM);
+
+
+
+partition_start = 0xc0000000;
+partition_end = 0xc0000000 + 0x02000000;
+
+shm_start = 0xf9b00000;
+shm_end = 0xf9b00000 + 0x06400000;
+
+}
+
+load__text_start = (0x02000000 + (0x00001000 - 1))& ~(0x00001000 - 1);
+store__text_size = ((_text_size + (0x00001000 - 1)) & ~(0x00001000 - 1));
+
+load__data_start = (0x02000000 + _text_size + (0x00001000 - 1))& ~(0x00001000 - 1);
+store__data_size = ((_data_size + (0x00001000 - 1)) & ~(0x00001000 - 1));
+
+load__bss_start = (0x02000000 + ((_text_size + (0x00001000 -1))& ~(0x00001000 -1)) + _data_size + (0x00001000 - 1))& ~(0x00001000 - 1);
+store__bss_size = ((_bss_size + (0x00001000 - 1)) & ~(0x00001000 - 1));
+
+load_init_stack_start = (0x02000000 + ((_text_size + (0x00001000 -1))& ~(0x00001000 -1)) + ((_data_size + (0x00001000 -1))& ~(0x00001000 -1)) + _bss_size + (0x00001000 - 1))& ~(0x00001000 - 1);
+store_init_stack_size = ((init_stack_size + (0x00000004 - 1)) & ~(0x00000004 - 1));
+
+load___exidx_start = (0x02000000 + ((_text_size + (0x00001000 -1))& ~(0x00001000 -1)) + ((_data_size + (0x00001000 -1))& ~(0x00001000 -1)) + ((_bss_size + (0x00001000 -1))& ~(0x00001000 -1)) + init_stack_size + (0x00000004 - 1))& ~(0x00000004 - 1);
+store___exidx_size = (0xf9b00000 - __exidx_start);
+

@@ -1,0 +1,20 @@
+D:/Intewell_Developer_V1.9.0_DKS3588_C1_b2/eclipse/workspace/vm1/Debug/make/vm1.elf  :
+section               size       addr
+.text             0x20f000   0x100000
+.ARM_exidx          0x27a0   0x30f000
+.data               0xd000   0x312000
+.bss              0x558000   0x31f000
+.ARM.attributes       0x37        0x0
+.comment              0x33        0x0
+.debug_aranges      0x7b98        0x0
+.debug_info       0x2558dd        0x0
+.debug_abbrev      0x25fb8        0x0
+.debug_line        0x72682        0x0
+.debug_str         0x93654        0x0
+.debug_ranges       0x8190        0x0
+.debug_frame       0x1dcd8        0x0
+.debug_loc          0x4530        0x0
+.debug_macro       0x2663e        0x0
+Total             0xb502e3
+
+

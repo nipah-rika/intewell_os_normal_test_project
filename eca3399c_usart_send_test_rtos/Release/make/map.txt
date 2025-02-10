@@ -1,0 +1,202 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .data          0x0000000000000000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .bss           0x0000000000000000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+vmk              0x000000004f908000 0x0000000000400000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000001000                .text_size = 0x1000
+                0x0000000000005000                .data_size = 0x5000
+                0x0000000000000033                .comment_size = 0x33
+                0x0000000000000037                .ARM.attributes_size = 0x37
+                0x0000000000000078                .debug_aranges_size = 0x78
+                0x000000000000452d                .debug_info_size = 0x452d
+                0x0000000000000a79                .debug_abbrev_size = 0xa79
+                0x000000000000084e                .debug_line_size = 0x84e
+                0x0000000000000f62                .debug_str_size = 0xf62
+
+.text           0x000000004f908000     0x1000
+                0x000000004f908000                _text_start = .
+                0x000000004f908000                __start_start = .
+ *(.vmk_info)
+ .vmk_info      0x000000004f908000       0x30 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f908000                vmkConfigTable
+ *(.image_info)
+                0x000000004f908030                . = ALIGN (0x10)
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ *(.text.*)
+ *(.text.lock)
+ *(.m_hdr)
+                0x000000004f908030                __EH_FRAME_BEGIN__ = .
+ *(.eh_frame)
+ *(.gnu.linkonce.t*)
+                0x000000004f908030                . = ALIGN (0x4)
+                0x000000004f908030                ___CTOR_LIST__ = .
+                0x000000004f908030                __CTOR_LIST__ = .
+                0x000000004f908030        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+                0x000000004f908034        0x4 LONG 0x0
+                0x000000004f908038                __CTOR_END__ = .
+                0x000000004f908038                ___DTOR_LIST__ = .
+                0x000000004f908038                __DTOR_LIST__ = .
+                0x000000004f908038        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+                0x000000004f90803c        0x4 LONG 0x0
+                0x000000004f908040                __DTOR_END__ = .
+ *(.gnu.linkonce.r*)
+ *(.rodata*)
+ *(.jcr)
+ *(.MIPS*)
+ *(.init_begin)
+ *(.init)
+ *(.init_end)
+ *(.fini)
+                0x000000004f908040                __GOT_START__ = .
+ *(.got)
+                0x000000004f908040                __GOT_END__ = .
+                0x000000004f908040                __GOT2_START__ = .
+ *(.got2)
+                0x000000004f908040                __GOT2_END__ = .
+ *(.gcc_except_table)
+                0x000000004f908040                . = ALIGN (0x10)
+ *(.fixup)
+ *(.interface)
+                0x000000004f909000                . = ALIGN (0x1000)
+ *fill*         0x000000004f908040      0xfc0 
+                0x000000004f909000                _text_end = .
+                0x0000000000001000                _text_size = SIZEOF (.text)
+
+.glue_7         0x000000004f909000        0x0
+ .glue_7        0x000000004f909000        0x0 linker stubs
+
+.glue_7t        0x000000004f909000        0x0
+ .glue_7t       0x000000004f909000        0x0 linker stubs
+
+.vfp11_veneer   0x000000004f909000        0x0
+ .vfp11_veneer  0x000000004f909000        0x0 linker stubs
+
+.v4_bx          0x000000004f909000        0x0
+ .v4_bx         0x000000004f909000        0x0 linker stubs
+
+.iplt           0x000000004f909000        0x0
+ .iplt          0x000000004f909000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.rel.dyn        0x000000004f909000        0x0
+ .rel.iplt      0x000000004f909000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.data           0x000000004f909000     0x5000
+                0x000000004f909000                _data_start = .
+ *(.data)
+ *(.data.*)
+ .data.vmkConfigSpaceBlocks
+                0x000000004f909000      0x300 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .data.haclExtIntToVintMapvm1
+                0x000000004f909300      0x300 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .data.haclVIntToExIntMapvm1
+                0x000000004f909600       0x80 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .data.exintMapConfigvm1
+                0x000000004f909680        0x8 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .data.vmSpacevm1
+                0x000000004f909688       0x80 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ .data.vmkConfigUserVMTable
+                0x000000004f909708       0x68 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f909708                vmkConfigUserVMTable
+ .data.vmkConfigTTS_tts1
+                0x000000004f909770       0x18 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f909770                vmkConfigTTS_tts1
+ .data.vmkConfigTTSTable
+                0x000000004f909788       0x2c D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f909788                vmkConfigTTSTable
+ .data.vmkConfigIntDispatchTable
+                0x000000004f9097b4     0x1000 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f9097b4                vmkConfigIntDispatchTable
+ .data.configHaclTable
+                0x000000004f90a7b4        0x8 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f90a7b4                configHaclTable
+ *(.gnu.linkonce.d*)
+ *(.gcc_except_table)
+ *(.data.rel.local)
+                0x000000004f90a7bc                __SDATA_START__ = .
+ *(.sdata)
+ *(.DeltaSVMConfig)
+                0x000000004f90a7bc                __SDATA2_START__ = .
+ *(.sdata2)
+ *(.flash*)
+                0x000000004f90a7bc                __FIXUP_START__ = .
+                0x000000004f90a7bc                __FIXUP_END__ = .
+                0x000000004f90a7bc                __EXCEPT_START__ = .
+                0x000000004f90a7bc                __EXCEPT_END__ = .
+ *(.bss)
+ *(.bss.*)
+ *fill*         0x000000004f90a7bc        0x4 
+ .bss.vmkTTSCB  0x000000004f90a7c0       0x48 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+ *fill*         0x000000004f90a808      0x7f8 
+ .bss.vmkUserVCB
+                0x000000004f90b000     0x3000 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f90b000                vmkUserVCB
+ .bss.vmkConfigAutoStartedTTS
+                0x000000004f90e000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                0x000000004f90e000                vmkConfigAutoStartedTTS
+ *(COMMON)
+ *(.sbss)
+                0x000000004f90e000                __SBSS_END__ = .
+ *(.sbss2)
+                0x000000004f90e000                __SBSS2_END__ = .
+                0x000000004f90e000                . = ALIGN (0x1000)
+                0x000000004f90e000                _data_end = .
+                0x0000000000005000                _data_size = SIZEOF (.data)
+                0x000000004f90e000                _stack_origin = (((_data_end + 0x1000) - 0x1) & 0xfffffffffffff000)
+                0x000000004f90f000                _stack_top = ((((_data_end + 0x1000) - 0x1) & 0xfffffffffffff000) + 0x1000)
+                0x0000000000001000                _stack_size = 0x1000
+                0x0000000000600000                load__text_start = 0x600000
+                0x0000000000001000                store__text_size = ((_text_size + 0xfff) & 0xfffffffffffff000)
+                0x0000000000601000                load__data_start = (((0x600000 + _text_size) + 0xfff) & 0xfffffffffffff000)
+                0x0000000000005000                store__data_size = ((_data_size + 0xfff) & 0xfffffffffffff000)
+                0x0000000000606000                load__stack_origin = ((((0x600000 + ((_text_size + 0xfff) & 0xfffffffffffff000)) + _data_size) + 0xfff) & 0xfffffffffffff000)
+                0x00000000003fa000                store__stack_size = ((0x4fd07fff - _stack_origin) + 0x1)
+LOAD D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+OUTPUT(D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/make/sskCfg.elf elf32-littlearm)
+LOAD linker stubs
+
+.igot.plt       0x000000004f90e000        0x0
+ .igot.plt      0x000000004f90e000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                                        0x104 (size before relaxing)
+
+.ARM.attributes
+                0x0000000000000000       0x37
+ .ARM.attributes
+                0x0000000000000000       0x37 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.noinit         0x0000000000000000        0x0
+ .noinit        0x0000000000000000        0x0 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.debug_aranges  0x0000000000000000       0x78
+ .debug_aranges
+                0x0000000000000000       0x78 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.debug_info     0x0000000000000000     0x452d
+ .debug_info    0x0000000000000000     0x452d D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.debug_abbrev   0x0000000000000000      0xa79
+ .debug_abbrev  0x0000000000000000      0xa79 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.debug_line     0x0000000000000000      0x84e
+ .debug_line    0x0000000000000000      0x84e D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+
+.debug_str      0x0000000000000000      0xf62
+ .debug_str     0x0000000000000000      0xf62 D:/Intewell_V1.8.2_beta/eclipse/workspace/eca3399c_usart_send_test_rtos/Release/osdata.o
+                                       0x4207 (size before relaxing)

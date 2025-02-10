@@ -1,0 +1,8 @@
+﻿  Building 'testshmm' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+  shm_read.c
+  testshmm.c
+  正在生成代码...
+shm_read.obj : error LNK2019: 无法解析的外部符号 _open_shared_memory@16，该符号在函数 _shm_write@0 中被引用
+testshmm.obj : error LNK2001: 无法解析的外部符号 _open_shared_memory@16
+testshmm.obj : error LNK2019: 无法解析的外部符号 _allocate_shared_memory@12，该符号在函数 _main1 中被引用
+H:\shmm\intewellrtre_windows-testshmm(1)\intewellrtre_windows-testshmm\gpos\output\testshmm\x86\Debug\testshmm.exe : fatal error LNK1120: 2 个无法解析的外部命令

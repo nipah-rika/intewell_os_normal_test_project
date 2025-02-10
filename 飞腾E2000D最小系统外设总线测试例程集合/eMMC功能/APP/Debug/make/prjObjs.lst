@@ -1,0 +1,2 @@
+./src/emmc_readwrite_test.o
+./src/userAppInit.o

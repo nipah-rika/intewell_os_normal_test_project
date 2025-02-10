@@ -1,0 +1,18 @@
+C:/Intewell_Developer_V2.3.0_FUSION_C1_b2/eclipse/workspace/HT7038/Debug/make/HT7038.elf  :
+section               size                 addr
+.text             0x294000   0xfffffff400000000
+.data              0x12000   0xfffffff401000000
+.bss              0x59f000   0xfffffff401012000
+.comment              0x33                  0x0
+.debug_aranges     0x1da30                  0x0
+.debug_info       0x6a1e8a                  0x0
+.debug_abbrev      0x59af0                  0x0
+.debug_line       0x1684c3                  0x0
+.debug_str         0xedb0c                  0x0
+.debug_ranges     0x108e90                  0x0
+.debug_frame        0x89e8                  0x0
+.debug_loc        0x3fbf25                  0x0
+.debug_macro       0x279ec                  0x0
+Total            0x16e9535
+
+

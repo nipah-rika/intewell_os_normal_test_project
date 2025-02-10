@@ -1,0 +1,20 @@
+F:/git_IDE/chengdu_git/d9_ide_from_cd/ide/BIN/Intewell_Developer/eclipse/workspace2/app_semidrive_multicast_test_vm2/Debug/make/app_semidrive_multicast_test_vm2.elf  :
+section               size         addr
+.text             0x20f000   0xc0000000
+.ARM_exidx          0x27a0   0xc020f000
+.data               0x3000   0xc0212000
+.bss              0x558000   0xc0215000
+.ARM.attributes       0x37          0x0
+.comment              0x33          0x0
+.debug_aranges      0x7c98          0x0
+.debug_info       0x256e88          0x0
+.debug_abbrev      0x261e7          0x0
+.debug_line        0x7275c          0x0
+.debug_str         0x93440          0x0
+.debug_ranges       0x8280          0x0
+.debug_frame       0x1e07c          0x0
+.debug_loc          0x4537          0x0
+.debug_macro       0x2663e          0x0
+Total             0xb47f1e
+
+

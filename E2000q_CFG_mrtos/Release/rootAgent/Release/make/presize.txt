@@ -1,0 +1,18 @@
+F:/git_IDE/chengdu_git/phytium_e2000/ide/BIN/Intewell_Developer/eclipse/workspace/cfg_e2000q_mrtos/Release/rootAgent/Release/make/rootAgent.elf  :
+section               size                 addr
+.text             0x218000   0xfffffff400000000
+.data               0x7000   0xfffffff401000000
+.bss              0xacf000   0xfffffff401007000
+.debug_aranges      0xcd50                  0x0
+.debug_info       0x1fed3c                  0x0
+.debug_abbrev      0x20722                  0x0
+.debug_line        0x5660c                  0x0
+.debug_str         0x7b1bb                  0x0
+.debug_ranges       0xec80                  0x0
+.comment              0x33                  0x0
+.debug_frame        0x1330                  0x0
+.debug_macro       0x18d11                  0x0
+.debug_loc          0xaae5                  0x0
+Total            0x101f14e
+
+

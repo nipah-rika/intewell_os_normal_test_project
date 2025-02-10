@@ -1,0 +1,17 @@
+F:/git_IDE/chengdu_git/d9_ide_from_cd/ide/BIN/Intewell_Developer/eclipse/workspace2/d9_32_mrtos/Release/vsc/Release/make/vsc.elf  :
+section               size         addr
+.text              0x26000   0x702e0000
+.data               0x2000   0x70306000
+.bss               0xf8000   0x70308000
+.comment              0x33          0x0
+.ARM.attributes       0x35          0x0
+.debug_aranges       0x960          0x0
+.debug_info        0x2369a          0x0
+.debug_abbrev       0x42ea          0x0
+.debug_line         0x8013          0x0
+.debug_frame        0x1c50          0x0
+.debug_str          0x529a          0x0
+.debug_ranges        0x7b8          0x0
+Total             0x157a01
+
+

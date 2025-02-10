@@ -1,0 +1,6 @@
+setenv bootaddr 0xa0000000
+tftpboot 0xb0000000  download/E2000d_MiniITX_Priority_Inversion_APP/Debug/make/APP.bin
+tftpboot 0xc0000000  download/E2000d_MiniITX_Priority_Inversion_APP/Debug/make/APP.bin
+tftpboot 0xaf900000  download/cfg/Release/merge/config.bin
+tftpboot 0xa02898e8  download/cfg/Release/vsc/Release/make/vsc.elf
+bootvx

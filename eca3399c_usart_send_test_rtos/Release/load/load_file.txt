@@ -1,0 +1,4 @@
+tftpboot 0x20700000  download/eca3399c_for_usart_test_app/Debug/make/eca3399c_for_usart_test_app.bin
+tftpboot 0x4f900000  download/eca3399c_usart_send_test_rtos/Release/merge/config.bin
+tftpboot 0x40000000  download/eca3399c_usart_send_test_rtos/Release/vsc/Release/make/vsc.bin
+bootvx32

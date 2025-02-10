@@ -1,0 +1,5 @@
+tftpboot 0x20000000  download/Eca3399c_Memory_Application_test_GPOSMRTOS/Release/rootAgent/Release/make/rootAgent.bin
+tftpboot 0x2c800000  download/Eca3399c_Memory_Application_test_APP/Debug/make/Eca3399c_Memory_Application_test_APP.bin
+tftpboot 0x4f900000  download/Eca3399c_Memory_Application_test_GPOSMRTOS/Release/merge/config.bin
+tftpboot 0x40000000  download/Eca3399c_Memory_Application_test_GPOSMRTOS/Release/vsc/Release/make/vsc.bin
+bootvx32

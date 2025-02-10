@@ -1,0 +1,7 @@
+﻿  Building 'testshmm' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+  shm_read.c
+d:\tzp\rtre_windows\intewellrtre_windows\source\vs_project\src\exe\testshmm\shm_read.c(22): error C2220: 警告被视为错误 - 没有生成“object”文件
+d:\tzp\rtre_windows\intewellrtre_windows\source\vs_project\src\exe\testshmm\shm_read.c(22): warning C4100: “argv”: 未引用的形参
+d:\tzp\rtre_windows\intewellrtre_windows\source\vs_project\src\exe\testshmm\shm_read.c(21): warning C4100: “argc”: 未引用的形参
+  testshmm.c
+  正在生成代码...

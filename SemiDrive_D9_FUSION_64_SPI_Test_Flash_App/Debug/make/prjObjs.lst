@@ -1,0 +1,4 @@
+./src/sfud/port/sfud_port.o
+./src/sfud/src/sfud.o
+./src/sfud/src/sfud_sfdp.o
+./src/userAppInit.o
