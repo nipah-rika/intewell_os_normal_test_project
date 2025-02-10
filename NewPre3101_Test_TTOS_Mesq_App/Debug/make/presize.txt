@@ -1,0 +1,18 @@
+E:/Intewell_Developer_V2.3.1_beta/eclipse/workspace/Mesq/Debug/make/Mesq.elf  :
+section              size         addr
+.text            0x1f8000   0x40000000
+.data              0x5000   0x41000000
+.got.plt              0xc   0x41005000
+.bss             0x6ee000   0x41005000
+.comment             0x33          0x0
+.debug_aranges     0x6918          0x0
+.debug_info      0x1f93ae          0x0
+.debug_abbrev     0x2072a          0x0
+.debug_line       0x5b858          0x0
+.debug_str        0x7f513          0x0
+.debug_ranges      0x70f0          0x0
+.debug_loc         0x613a          0x0
+.debug_macro      0x1b9c9          0x0
+Total            0xc0ed8d
+
+
