@@ -9,8 +9,8 @@
 ".debug_aranges_size" = 0x6918;
 ".debug_info_size" = 0x1f93ae;
 ".debug_abbrev_size" = 0x2072a;
-".debug_line_size" = 0x5b858;
-".debug_str_size" = 0x7f513;
+".debug_line_size" = 0x5b872;
+".debug_str_size" = 0x7f52c;
 ".debug_ranges_size" = 0x70f0;
 ".debug_loc_size" = 0x613a;
 ".debug_macro_size" = 0x1b9c9;
